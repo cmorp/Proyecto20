@@ -4,7 +4,6 @@ import { Table } from "react-bootstrap";
 
 const MiApi = (props) => {
     const [dataApi, setDataApi] = useState([]);
-    const [sort, setSort] = useState('asc');
 
     useEffect(() => {
         getDataApi();
